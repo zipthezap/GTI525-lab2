@@ -1,0 +1,29 @@
+{
+  "name": "gti525-lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipthezap/GTI525-lab2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zipthezap/GTI525-lab2/issues"
+  },
+  "homepage": "https://github.com/zipthezap/GTI525-lab2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "xml2js": "^0.6.2"
+  }
+}

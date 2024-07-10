@@ -1,0 +1,187 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+#logo-banner {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+}
+
+.province-list {
+  width: 20%;
+  box-sizing: border-box;
+  margin-right: 20px;
+  overflow-y: auto;
+  height: 750px;
+}
+
+.province-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #add8e6;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.province-box:hover {
+  background-color: #90ee90;
+  color: #333;
+}
+
+.box:active {
+  background-color: #90ee90;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.date-range {
+  display: inline;
+}
+
+.custom-select {
+  margin: 10px;
+}
+
+.tab {
+  border: 1px solid gray;
+  list-style-type: none;
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+  padding-top: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+#tabs {
+  padding: 0px;
+}
+
+#meteo-data-tab {
+  background-color: orange;
+}
+
+#global-stats-tab {
+  background-color: skyblue;
+}
+
+#meteo-data-tab:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+#global-stats-tab:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.hide-content {
+  display: none;
+}
+
+.show-content {
+  display: block;
+  height: 550px;
+  width: 1100px;
+  overflow-y: auto;
+}
+
+#coords {
+  position: left;
+}
+
+#allData {
+  height: 30px;
+  padding: 5px 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: gray;
+  height: 30px;
+}
+
+.expanded-content {
+  margin-left: 20px;
+}
+
+.expanded-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expanded-content ul li {
+  padding: 10px 0;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.expanded-content ul li:hover {
+  color: #333;
+}
+
+.expanded-content li {
+  cursor: pointer;
+}
+
+.data-content {
+  width: 70%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.selected-city {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.selected-station {
+  color: red;
+}
